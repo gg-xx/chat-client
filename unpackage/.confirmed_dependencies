@@ -1,0 +1,93 @@
+{
+  "login.html": {
+    "resources": [
+      "js/common.js",
+      "js/mui.min.js",
+      "css/mui.min.css",
+      "register.html",
+      "fonts/mui.ttf"
+    ],
+    "refer": [
+      "index.html",
+      "register.html"
+    ]
+  },
+  "index.html": {
+    "resources": [
+      "fonts/mui.ttf",
+      "main_hchat.html"
+    ],
+    "refer": [
+      "main_me.html",
+      "main_contact.html",
+      "main_hchat.html",
+      "main_discover.html"
+    ]
+  },
+  "main_contact.html": {
+    "resources": [
+      "js/hanzi_pinyin.js",
+      "css/mui.indexedlist.css",
+      "js/mui.indexedlist.js"
+    ],
+    "refer": [
+      "chat.html"
+    ]
+  },
+  "main_discover.html": {
+    "resources": [
+      "image/add_friend.png",
+      "image/saoyisao.png"
+    ],
+    "refer": [
+      "search_friend.html"
+    ]
+  },
+  "chat.html": {
+    "resources": [
+      "css/chat.css"
+    ],
+    "refer": []
+  },
+  "main_hchat.html": {
+    "refer": [
+      "chat.html"
+    ],
+    "resources": []
+  },
+  "main_me.html": {
+    "resources": [
+      "image/default_user_pic.png",
+      "image/qrcode.png"
+    ],
+    "refer": [
+      "me_nickname.html",
+      "me_qrcode.html",
+      "me_photo.html"
+    ]
+  },
+  "register.html": {
+    "resources": [
+      "fonts/mui.ttf",
+      "register.html",
+      "login.html",
+      "js/common.js",
+      "js/mui.min.js",
+      "css/mui.min.css"
+    ],
+    "refer": [
+      "register.html",
+      "login.html"
+    ]
+  },
+  "me_photo.html": {
+    "resources": [
+      "image/default_user_pic_normal.png"
+    ]
+  },
+  "search_friend.html": {
+    "refer": [
+      "search_friend_result.html"
+    ]
+  }
+}
